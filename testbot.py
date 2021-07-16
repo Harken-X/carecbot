@@ -1,6 +1,7 @@
 import telebot
 import bs4
 
+bot = telebot.TeleBot('1738253572:AAEDzAMDYZovF0niQW0Rxn24wvGhfndihXY')
 
 @bot.message_handler(content_types=['text'])
 def text_handler(message):
